@@ -158,7 +158,7 @@ namespace QuestDump
 				//plain text
 				case "-pt":
 				default:
-					questText = $"{questIDInt.PadLeft(5, '0')}\n{name}\n{sucCon}\n{failCon}\n{description}\n{questFee}\n{questReward}";
+					questText = $"{questIDInt.PadLeft(5, '0')}\n{name}\n{localeStr}\n{sucCon}\n{failCon}\n{description}\n{questFee}\n{questReward}\n{failureCost}";
 					break;
 			}
 
