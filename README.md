@@ -5,16 +5,27 @@ Targets .NET Core 3.1
 ## Usage
 Run in command line.
 ```
-questdump inputfile format
+questdump inputfile format language
+
+Formats:
+-gh = Markdown Table for Github
+-pt = Plain text output
+
+Languages:
+-en = English
+-fr = French
+-ge = German
+-it = Italian
+-sp = Spanish
 ```
-Current supported formats are -gh to generate a GitHub wiki table and -pt to generate a plain text dump.
 
 ## Roadmap
-Figure out more quest data.
-* Supplies
-* Rewards
-* Time
-* Gathering Points
+* Mediawiki table output.
+* Figure out more quest data.
+* Remove Client/Description splitter.
+* Figure out reward amounts.
+* Quest Timers.
+* Gathering Points.
 
 ## License
 GPL 3.0
